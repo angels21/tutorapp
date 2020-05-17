@@ -1,31 +1,20 @@
 {
-  "name": "rest-api-tutorial",
+  "name": "catclass",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "subject and category",
+  "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/makinhs/rest-api-tutorial.git"
-  },
-  "author": "",
+  "author": "Solomon Abe",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/makinhs/rest-api-tutorial/issues"
-  },
-  "homepage": "https://github.com/makinhs/rest-api-tutorial#readme",
   "dependencies": {
-    "body-parser": "1.19.0",
+    "@hapi/joi": "^17.1.1",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
     "express": "^4.17.1",
     "jsonwebtoken": "^8.5.1",
-    "moment": "^2.24.0",
-    "moment-timezone": "^0.5.27",
-    "mongoose": "^5.7.9",
-    "uuid": "^3.3.3",
-    "swagger-ui-express": "^4.1.2",
-    "sync-request": "^6.1.0"
+    "mongoose": "^5.9.14"
   }
 }
